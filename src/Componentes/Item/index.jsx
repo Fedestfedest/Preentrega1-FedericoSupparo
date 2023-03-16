@@ -1,9 +1,6 @@
-
 function Item ({productos}) {
     return (
-        <div>
-            <p>{productos.name}</p>
-        </div>
+            <li>{productos.name}</li> 
     );
 }
 

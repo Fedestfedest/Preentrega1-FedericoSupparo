@@ -4,9 +4,9 @@ function ItemList ({productos}) {
     return (
         <div>
             <ul>
-                {productos.map((productos, index) =>{
+                {productos.map((productos, index) =>(
                     <Item productos ={productos} key={productos.id}/>
-                })}
+                ))}
             </ul>
         </div>
     )

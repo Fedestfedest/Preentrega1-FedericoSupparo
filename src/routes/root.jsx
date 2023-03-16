@@ -9,7 +9,7 @@ const isCategoryRoute = Boolean(params.id);
 return (
 <div>
 <NavBar setState={setState} state={state}/>
-<ItemListContainer isCategoryRoute={isCategoryRoute} category={params.id} greeting="Productos buenos,bonitos y baratos" state={state}/> 
+<ItemListContainer isCategoryRoute={isCategoryRoute} category={params.id}/> 
 </div>
 )
 }

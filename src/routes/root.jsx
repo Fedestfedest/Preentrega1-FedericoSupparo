@@ -1,4 +1,5 @@
-import { useState, useParams } from "react";
+import { useState} from "react";
+import { useParams } from "react-router-dom";
 import NavBar from "../Componentes/NavBar"
 import ItemListContainer from "../Componentes/ItemListContainer"
 const Root =() => {
